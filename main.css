@@ -1,0 +1,441 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*////////MY CSS/////////*/
+
+
+
+*
+{box-sizing: border-box;}
+
+
+body, html {
+  
+  //background-color: yellow;
+   height: 100%;
+}
+body{
+		
+	/*display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 130%;*/
+	background-color: white;
+    //font-family: 'Courgette', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+ .full{
+	 //height: 100%;
+	 background-color: white;
+	 display: flex;
+	 flex-direction: column;
+	justify-content: center;
+	 align-items: center;
+	
+ }
+ 
+ h1{
+	 color: black;
+     text-align: center;
+	 font-size: 1.5rem;
+	 z-index: 0;
+	 padding-top: 1rem;
+     font-weight: 600
+	
+ }
+ 
+ .btn{
+ padding: 2.9375rem; 
+ background-color: rgba(0, 0, 0, .7);
+ font-size: 1.8375rem;
+ display: inline-block;
+ width: 95%;
+ border: 1px solid white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin-top: 1.125rem;
+     
+ 
+ 
+ }
+ 
+ .btn:hover{
+	border: 1px solid yellow;
+	background-color: grey;
+	transition: all 0.2s ease-in-out;
+		
+}
+
+ img{
+	 /*display: flex;
+	 justify-content: center;
+     align-items: center;*/
+	 //margin-top: -2.5rem;
+	 /*margin-bottom: 1rem;*/
+	 width: 70%;
+	 height: auto;
+	 
+ }
+ 
+ 
+
+#content{
+	display: block;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	//margin-top: -8rem;
+	width: 100%;
+	
+}
+ 
+ 
+
+.footer{
+	//background-color: rgba(128, 128, 128, .3);
+    background-color: #42444e;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	font-size: 1.125rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	//padding: 2rem;
+	width: 100%;
+	
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.3125rem;
+	
+}
+
+@media (min-width: 768px) {
+	
+	
+	body, html {
+		height: 100%;
+		overflow: hidden;
+		background-color: white;
+       
+		
+	}
+	
+	h1{
+		z-index: 2;
+		font-size: 3rem;
+        color: black;
+	}
+	img {
+		position: absolute;
+		top: 30px; left: 0px;
+		width: auto;
+		height: 90%;
+	}
+    
+    .btn{
+         padding: 2.9375rem; 
+         background-color: rgba(0, 0, 0, .01);
+         font-size: 2.4375rem;
+         display: inline-block;
+         width: 95%;
+         border: none;
+         margin-top: 1.125rem;
+         transition: all 0.5s ease-in-out;
+     
+ 
+ 
+        }
+ 
+     .btn:hover{
+        border: none;
+         font-size: 3rem;
+        background-color: white;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        
+        padding: 0.3125rem;
+
+        }
+    	
+	.btn-rolunk{
+		position: absolute;
+		top: 20%; left: 60%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-termekek{
+		position: absolute;
+		top: 35%; left: 70%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-szolgaltatasok{
+		position: absolute;
+		top: 80%; left: 70%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-referenciak{
+		position: absolute;
+		top: 50%; left: 75%;
+		padding: 0;
+		width: auto;
+	}
+    
+    .btn-partnereink{
+		position: absolute;
+		top: 65%; left: 75%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.footer{
+        
+		position: absolute;
+		bottom: 0; left: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.footerrow{
+		padding-right: 3rem;
+		padding-left: 3rem;
+        color: white;
+	}
+}
+
+@media (min-width: 812px){
+    
+    	.btn-rolunk{
+		position: absolute;
+		top: 20%; left: 55%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-termekek{
+		position: absolute;
+		top: 33%; left: 65%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-szolgaltatasok{
+		position: absolute;
+		top: 46%; left: 55%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-referenciak{
+		position: absolute;
+		top: 59%; left: 65%;
+		padding: 0;
+		width: auto;
+	}
+    
+    .btn-partnereink{
+		position: absolute;
+		top: 72%; left: 55%;
+		padding: 0;
+		width: auto;
+	}
+    
+    img{
+        position: absolute;
+        left: 10%;
+    }
+    
+}
+
+@media (min-width: 1280px){
+    
+    .btn{
+         padding: 2.9375rem; 
+         background-color: rgba(0, 0, 0, .01);
+         font-size: 2.4375rem;
+         display: inline-block;
+         width: 95%;
+         border: none;
+         margin-top: 1.125rem;
+         transition: all 0.5s ease-in-out;
+     
+ 
+ 
+        }
+ 
+     .btn:hover{
+        border: none;
+         font-size: 3rem;
+        background-color: white;
+        transition: all 0.5s ease-in-out;
+
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+    
+    img{
+        position: absolute;
+        left: 15%;
+    }
+    
+    .btn-rolunk{
+		position: absolute;
+		top: 20%; left: 50%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-termekek{
+		position: absolute;
+		top: 33%; left: 60%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-szolgaltatasok{
+		position: absolute;
+		top: 46%; left: 70%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-referenciak{
+		position: absolute;
+		top: 59%; left: 60%;
+		padding: 0;
+		width: auto;
+	}
+    
+    .btn-partnereink{
+		position: absolute;
+		top: 72%; left: 52%;
+		padding: 0;
+		width: auto;
+	}
+    
+}
+
+@media (min-height: 1366px){
+    
+    .btn{
+        font-size: 3rem;
+    }
+    
+    h1{
+        font-size: 3.5rem;
+    }
+    
+    img{
+        position: absolute;
+        left: 15%; top: 5%;
+    }
+    
+    .btn-rolunk{
+		position: absolute;
+		top: 20%; left: 65%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-termekek{
+		position: absolute;
+		top: 33%; left: 13%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-szolgaltatasok{
+		position: absolute;
+		top: 43%; left: 73%;
+		padding: 0;
+		width: auto;
+	}
+	
+	.btn-referenciak{
+		position: absolute;
+		top: 59%; left: 8%;
+		padding: 0;
+		width: auto;
+	}
+    
+    .btn-partnereink{
+		position: absolute;
+		top: 72%; left: 78%;
+		padding: 0;
+		width: auto;
+	}
+    
+}
